@@ -30,8 +30,10 @@ public class Menu extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem24 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem25 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenu9 = new javax.swing.JMenu();
         jMenu19 = new javax.swing.JMenu();
@@ -78,12 +80,18 @@ public class Menu extends javax.swing.JFrame {
         jMenuItem1.setText("Cadastrar");
         jMenu6.add(jMenuItem1);
 
+        jMenuItem24.setText("Alunos Cadastrados");
+        jMenu6.add(jMenuItem24);
+
         jMenu1.add(jMenu6);
 
         jMenu7.setText("Professores");
 
         jMenuItem2.setText("Consultar");
         jMenu7.add(jMenuItem2);
+
+        jMenuItem25.setText("Feedback");
+        jMenu7.add(jMenuItem25);
 
         jMenu1.add(jMenu7);
 
@@ -324,6 +332,8 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem21;
     private javax.swing.JMenuItem jMenuItem22;
     private javax.swing.JMenuItem jMenuItem23;
+    private javax.swing.JMenuItem jMenuItem24;
+    private javax.swing.JMenuItem jMenuItem25;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;

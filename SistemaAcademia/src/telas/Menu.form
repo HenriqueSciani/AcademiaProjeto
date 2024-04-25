@@ -22,6 +22,11 @@
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem24">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alunos Cadastrados"/>
+                  </Properties>
+                </MenuItem>
               </SubComponents>
             </Menu>
             <Menu class="javax.swing.JMenu" name="jMenu7">
@@ -32,6 +37,11 @@
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem25">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Feedback"/>
                   </Properties>
                 </MenuItem>
               </SubComponents>
