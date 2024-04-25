@@ -33,8 +33,39 @@ public class Menu extends javax.swing.JFrame {
         jMenu7 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jMenu9 = new javax.swing.JMenu();
+        jMenu19 = new javax.swing.JMenu();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenu20 = new javax.swing.JMenu();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem11 = new javax.swing.JMenuItem();
+        jMenu21 = new javax.swing.JMenu();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenu22 = new javax.swing.JMenu();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
+        jMenu10 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
+        jMenuItem17 = new javax.swing.JMenuItem();
+        jMenuItem18 = new javax.swing.JMenuItem();
+        jMenuItem19 = new javax.swing.JMenuItem();
+        jMenuItem20 = new javax.swing.JMenuItem();
+        jMenu11 = new javax.swing.JMenu();
+        jMenuItem23 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
+        jMenu12 = new javax.swing.JMenu();
+        jMenuItem21 = new javax.swing.JMenuItem();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenu13 = new javax.swing.JMenu();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenuItem22 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -59,15 +90,136 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/iconfinder-sports-and-competitionwellnessfitnessweighingweightliftingsportivebarbellsportsexercisegym-4394766_119492.png"))); // NOI18N
-        jMenu2.setText("Aparelhos");
+        jMenu2.setText("Treino");
+
+        jMenu9.setText("Tipos de treino");
+
+        jMenu19.setText("Inferior");
+
+        jMenuItem4.setText("Leg Press");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu19.add(jMenuItem4);
+
+        jMenuItem5.setText("Cadeira Abdutora");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
+        jMenu19.add(jMenuItem5);
+
+        jMenuItem6.setText("Cadeira Extensora");
+        jMenu19.add(jMenuItem6);
+
+        jMenuItem7.setText("Elevação Pélvica");
+        jMenu19.add(jMenuItem7);
+
+        jMenu9.add(jMenu19);
+
+        jMenu20.setText("Superior");
+
+        jMenuItem8.setText("Peck Deck");
+        jMenu20.add(jMenuItem8);
+
+        jMenuItem9.setText("Supino");
+        jMenu20.add(jMenuItem9);
+
+        jMenuItem10.setText("Cross Over");
+        jMenu20.add(jMenuItem10);
+
+        jMenuItem11.setText("Remada Sentada");
+        jMenu20.add(jMenuItem11);
+
+        jMenu9.add(jMenu20);
+
+        jMenu21.setText("Aeróbico");
+
+        jMenuItem12.setText("Bicicleta");
+        jMenu21.add(jMenuItem12);
+
+        jMenuItem13.setText("Esteira");
+        jMenu21.add(jMenuItem13);
+
+        jMenu9.add(jMenu21);
+
+        jMenu22.setText("Abdominal");
+
+        jMenuItem14.setText("Abdominal Articulado");
+        jMenu22.add(jMenuItem14);
+
+        jMenuItem16.setText("Prancha");
+        jMenu22.add(jMenuItem16);
+
+        jMenu9.add(jMenu22);
+
+        jMenu2.add(jMenu9);
+
         jMenuBar1.add(jMenu2);
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/coin_money_icon-icons.com_51091.png"))); // NOI18N
         jMenu3.setText("  Financeiro");
+
+        jMenu10.setText("Mensalidade");
+
+        jMenu8.setText("Tipos de Pagamento ");
+
+        jMenuItem17.setText("Pix");
+        jMenu8.add(jMenuItem17);
+
+        jMenuItem18.setText("Boleto");
+        jMenu8.add(jMenuItem18);
+
+        jMenuItem19.setText("Cartão de Crédito");
+        jMenu8.add(jMenuItem19);
+
+        jMenuItem20.setText("Cartão de Débito");
+        jMenu8.add(jMenuItem20);
+
+        jMenu10.add(jMenu8);
+
+        jMenu3.add(jMenu10);
+
+        jMenu11.setText("Caixinha de Hanukkah");
+
+        jMenuItem23.setText("Pix");
+        jMenu11.add(jMenuItem23);
+
+        jMenu3.add(jMenu11);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/telas/tools2_102885.png"))); // NOI18N
-        jMenu4.setText("Ferramentas");
+        jMenu4.setText("Propriedades");
+
+        jMenu12.setText("Cor de Fundo");
+
+        jMenuItem21.setText("Rosa");
+        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem21ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem21);
+
+        jMenuItem3.setText("Preto");
+        jMenu12.add(jMenuItem3);
+
+        jMenu4.add(jMenu12);
+
+        jMenu13.setText("Cor da Fonte");
+
+        jMenuItem15.setText("Preto");
+        jMenu13.add(jMenuItem15);
+
+        jMenuItem22.setText("Branco");
+        jMenu13.add(jMenuItem22);
+
+        jMenu4.add(jMenu13);
+
         jMenuBar1.add(jMenu4);
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/telas/exit_icon-icons.com_48304.png"))); // NOI18N
@@ -89,6 +241,18 @@ public class Menu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem21ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -127,14 +291,45 @@ public class Menu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu11;
+    private javax.swing.JMenu jMenu12;
+    private javax.swing.JMenu jMenu13;
+    private javax.swing.JMenu jMenu19;
     private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu20;
+    private javax.swing.JMenu jMenu21;
+    private javax.swing.JMenu jMenu22;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
+    private javax.swing.JMenuItem jMenuItem18;
+    private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem20;
+    private javax.swing.JMenuItem jMenuItem21;
+    private javax.swing.JMenuItem jMenuItem22;
+    private javax.swing.JMenuItem jMenuItem23;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }
